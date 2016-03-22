@@ -1,0 +1,169 @@
+body {
+	background-color:#F8F8FF
+}
+
+
+#banner {
+	margin-right: auto;
+	margin-left: auto;
+	position: center;
+	background-color: #E2FDFF;
+	width: 770px;
+	height: 400px;
+	padding-bottom: 20px;
+	left: 0px;
+	top: 0px;
+}
+
+#maincontent {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: #0066ba;
+	width: 770px;
+	height: 900px;
+	padding-bottom: 20px;
+	left: 0px;
+	top: 16px;
+}
+
+#maincontentissues {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: #0066ba;
+	width: 770px;
+	height: 1100px;
+	padding-bottom: 20px;
+	left: 0px;
+}
+
+#maincontentteam {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: #0066ba;
+	width: 770px;
+	height: 2050px;
+	padding-bottom: 20px;
+	left: 0px;
+	top: 0px;
+}
+
+#maincontentdonate {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: #0066ba;
+	width: 770px;
+	height: 850px;
+	padding-bottom: 20px;
+	left: 0px;
+	top: 0px;
+}
+
+#maincontentdonatedone {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: #0066ba;
+	width: 770px;
+	height: 500px;
+	padding-bottom: 20px;
+	left: 0px;
+	top: 16px;
+}
+
+#donation {
+	margin-right: auto;
+	margin-left: auto;
+}
+#text {
+	margin-left: 20px
+}
+
+#mainphoto {
+	position: relative;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 35px;
+	width: 700px;
+}
+#lesliephoto {
+	float: right;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	width: 300px;
+}
+
+#photo {
+	float: left;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	width: 300px;
+}
+
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: white;
+}
+
+h4{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: underline;
+	color: white;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	color: #97c5ed;
+}
+
+blockquote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	color: #97c5ed;
+
+}
+#footertable {
+	width: 680px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footertable hr {
+	height: 1px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: center;
+	background-color: #00C;
+}
+
+.footercells{
+	width: 25%;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: small;
+	color: white;
+	text-decoration: none;
+}

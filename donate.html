@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>Knope 2016</title>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<body>
+	<div id ="banner">
+			<MAP Name="mymap"> 
+	<AREA Shape="circle" Coords="111,314.5,112.5" 
+	         Href="index.html">  
+	<AREA Shape="poly" Coords="221.6,310,311.6,244,402.4,300,320,387" 
+	         Href="issues.html"> 
+	<AREA Shape="poly" Coords="402.6,310,496.0,244,587.4,300,503.7,387" 
+	         Href="team.html">
+	<AREA Shape="poly" Coords="587.3,310,680.4,244,770,300,686,387" 
+	         Href="donate.html">  
+	</MAP>
+	 
+	<IMG Src="images/banner.jpg" Width="770" 
+	        Alt="Image Map" Usemap="#mymap" Ismap align="center"></IMG>
+	</div>
+
+	<div id="maincontentdonate">
+
+<script>function validate()
+	
+	{
+	if (document.contact.name.value.length < 2) 
+
+	{
+	alert("Please enter your whole name.");
+	return false;		
+	}
+
+	if (document.contact.email.value.length < 6 ) 
+	{
+
+	alert("Please enter a valid email address.");
+	return false;		
+	}
+
+	if (document.contact.phone.value.length < 7 ) 
+	{
+
+	alert("Please enter your phone number.");
+	return false;		
+	}
+	
+	return true;
+	}
+
+	
+</script>
+
+<table width="720" id = "donation">
+
+	<form name="contact" action = "donate_completed.html" method = "post" onSubmit = "return validate();">
+
+	<tr>
+	<td height="50" colspan="2" align="center" valign="top" class="forminfo"><h1>Please provide the following information:</h1><br/></td>
+	</tr>
+
+	<tr>
+	<td width="40%" class="forminfo"><p>Name:</td>
+	<td width="60%" class="forminfo"><input type="text" size = "30" name = "name"></td>
+	</tr>
+	
+	<tr> 
+	<td class="forminfo"><p>Email Address:</td>
+	<td valign="top" class="forminfo"><input type="text" size = "40" name="email"></td>
+	</tr>
+	
+	<tr>
+	<td class="forminfo"><p>Phone Number:</td>
+	<td class="forminfo"><input type="text" name="phone" maxlength="15" /></td>
+	</tr>
+	
+	<tr>
+	<td height="84" id = "topalign" class="forminfo"><br><p>Favorite Waffle Toppings?: </td>
+	<td align = "left" valign ="middle" class="forminfo">
+	<br/>
+	<p><input type="checkbox" name = "Strawberry" value="Strawberry"/> : Strawberry <br/>
+	<p><input type="checkbox" name = "Chocolate Sauce" value="Chocolate Sauce" /> : Chocolate Sauce<br/>
+	<p><input type="checkbox" name = "Whipped Cream" value="Whipped Cream" /> : Whipped Cream <br/>
+	</td>
+	</tr>
+	
+	<tr>
+	<p><td height="63" id = "topalign" class="forminfo"><br/><p>How much would you like to donate? </td>
+	<td align = "left" valign = "middle" class="forminfo"><br/>
+	<p><input type="radio" name = "donate" value="5"/> : $5<br/>
+	<p><input type="radio"name = "donate" value="10" /> : $10 <br/>
+	<p><input type="radio"name = "donate" value="50" /> : $50 <br/>
+	<p><input type="radio"name = "donate" value="100" /> : $100 <br/>
+	<p><input type="radio"name = "donate" value="Other" /> : Other <input type="text" size = "5" name="lastname"><br/>
+	</td>
+	</tr>
+	<tr>
+	<td width="40%" class="forminfo"><p>Credit Card Number:</td>
+	<td width="60%" class="forminfo"><input type="text" size = "30" name = "creditcard"></td>
+	</tr>
+	<tr>
+	<td width="40%" class="forminfo"><p>Expiration Date</td>
+	<td width="60%" class="forminfo"><input type="text" size = "5" name = "expiration"></td>
+	</tr>
+
+
+	<tr>
+	<td class="forminfo"><br/><p>How did you hear about Leslie Knope's Campaign?</td>
+	<td class="forminfo"><br/>
+	<select name = "referral_code" size="3" multiple="3">
+	<option value="NULL">Please select an option</option>
+	<option value = "FRIEND">Friend</option>
+	<option value = "AD">Advertisement</option>
+	<option value = "GOOGLE">Google</option>
+	<option value = "OTHER">Other</option>
+	<option value = "NONE">None</option>
+	</select></td>
+ 	</tr> 
+	  
+	<tr>
+	<td height="30" colspan="2" valign="top" class="forminfo"><p>Any Questions?:</td>
+	</tr>
+
+	<tr>
+	<td height="85" colspan="2" align = "left" valign="top" class="forminfo"> 
+	<textarea id="comments" wrap="hard" rows="5" cols="45" align = "left"></textarea></td>
+	</tr>
+            
+	<tr>     
+	<td height="26" colspan="2" valign="top" class="forminfo">                        
+	<input type="submit" value="Submit" name = "submit"></td>                      
+	</tr>
+
+	<tr>
+	<td height="30" colspan="2" valign="top" class="forminfo">
+	<input type= "reset" /><br/></td>
+	</tr>
+
+	</form>
+
+	</div>
+			<table id="footertable">
+			<tr>
+				<td colspan="4"> <hr> </td>
+			</tr>
+
+			<tr>
+				<td class="footercells">&copy;2015, Donghun Kang, CMU</td>
+
+				<td class="footercells">
+					donghunk</td>
+
+				<td class="footercells">
+					<a href="mailto:donghunk@andrew.cmu.edu">Contact me</a> </td>
+			</tr>
+
+</table>
+
+</body>
+</html>
